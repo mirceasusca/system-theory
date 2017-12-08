@@ -26,6 +26,11 @@ function [is_stable,c1]=jury_criterion(p)
 %   [is_stable,c1]=jury_criterion(denz);
 %   >> is_stable = 1; c1 = [0.9548,0.2243,0.0168]
 %
+% Author: Mircea Susca
+% Technical University, Cluj-Napoca
+% Email: mircea.m.susca@gmail.com
+% 10-Dec-2017.
+%
 
 %%
 if p(1) == 0
