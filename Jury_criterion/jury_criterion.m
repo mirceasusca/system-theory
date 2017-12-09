@@ -38,7 +38,7 @@ if p(1) == 0
 end
 
 %% Initialization
-p = p/sign(p(1));
+p = p/sign(p(1)); % normalize polynomial to positive dominant term
 c1 = zeros(1,length(p)-1);  % first column of the Jury table
 
 r = p; % the first odd row starts with the polyonomial p(z)
